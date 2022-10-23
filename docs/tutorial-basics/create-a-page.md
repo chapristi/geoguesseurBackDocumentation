@@ -62,6 +62,7 @@ When you want to connect to an account
 } 
 
 ```
+---
 
 ## Get current User datas
 
@@ -83,6 +84,7 @@ When you want to get current user informations
 } 
 
 ```
+---
 
 ## Update current User datas
 
@@ -95,7 +97,9 @@ When you want to update current user informations
 
 ```json title="an exemple of what the server return"
 { 
-	"username" : "Louis12" 
+	"username" : "Louis12"
+	"email" : ???
+	"password" : ???
 } 
 
 ```
@@ -112,6 +116,7 @@ When you want to update current user informations
 } 
 
 ```
+---
 
 ## Refresh token 
 
@@ -137,10 +142,11 @@ When you want to refresh the token when the current token is invalid
 	} 
 } 
 ```
+---
 
 ## Logout
 
-When you want to destroy token to logout the current user
+When you want to destroy refresh token and token to logout the current user
 ### header you have to inform :
 ```http title="header"
   Authorization: Bearer eyJhbGciOiJSUzI1NiJ9.eyJkYXRhIjp7InVzZXJJZCI6MiwidXNlciI6eyJlbWFpbCI6ImNoYXByaXN0aUBnbWFpbC5jb20ifX0sImlhdCI6MTY2NjUyMTM0MCwiZXhwIjoxNjY2NTI0OTQwfQ.mG_goMcHAH3sCqzYiTKdocmbk_JZE8yEzJngrzcqTFRHDIXY9gGvJgrilFtZWjzFa6HW3R0jzjSaD3P1YJ2v0HqhfaH0F1PQnT9ymfauVPt6ahzRiF-6psLD3FLQg3bB8CkGVGnNX5QvL3Fg_lu5NswRraSqJM5ZjfUu9_6dF5tNbxH9MZZ7RQocDePpRl0XhesGXxxOHPYf8K3Tt5lPEkevJ9nytTpmHX0pYcto9Z3pA_sUr9rCH6PBx05f5L91LffRK1MXNNDGzOiFiaPUaWSXk_uPhniwtvoD6dtlvBjHSZqP_0CyyahmKac1KAIfB_L6mAUsCXKeA2IRnA5QPl4znGQI5BvZseDXfVjTWojNJP3dfLs-aFL3rvruldUfjFWIUF9h9led0EZdBK83bsFk7s9nF-cYpMvAHMYlkq1Wyep7UxYeCXh6Hl6iYg6SW_6WfLjzFw46sXY9vtJQElLc-8RduPeLi-XW2jDZfG-gkH1RTvR-dB5D2nZ2J0w94fewkV_FtM7nrraQVUga2UvmYl2HNZF9I2_2q4D1sAt_USjO3VzYkNjs4AWQfrotWGTNP08CBAQYuI7Bqt7TjATBqJU1iaewT4OG46uNkFyd1aO-ygVtyOlBVjKu5tFJ8QZmUaZQzypFTt0bJZ7VhCZakjSj0EL5a-nNDS6QMBo
