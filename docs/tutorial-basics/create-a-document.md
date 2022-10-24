@@ -21,23 +21,23 @@ When you create a user you have to know the username et email are unique:
 
 ### req.send() :
 ```json title="an exemple of request"
- { 
-	"longitude" : "1,26195", 
-	"latitude" : "45,8288", 
-	"categorie_id" : 1
- } 
+{ 
+  "longitude" : "1,26195", 
+  "latitude" : "45,8288", 
+  "categorie_id" : 1
+} 
 ```
 ### req.response() :
 
 ```json title="an exemple of what the server return"
- { 
-    "longitude" : "1,26195", 
-	"latitude" : "45,8288", 
-	"categorie_id" : 1
-	"created_at": "2022-10-23T12:32:55.659+02:00", 
-	"updated_at": "2022-10-23T12:32:55.659+02:00", 
-	"id": 1
- }  
+{ 
+  "longitude" : "1,26195", 
+  "latitude" : "45,8288", 
+  "categorie_id" : 1
+  "created_at": "2022-10-23T12:32:55.659+02:00", 
+  "updated_at": "2022-10-23T12:32:55.659+02:00", 
+  "id": 1
+}  
 
 ```
 ---

@@ -162,7 +162,7 @@ When you want to destroy refresh token and token to logout the current user:
 ### req.response() :
 
 ```json title="an exemple of what the server return"
-  {
+{
      "revoked" : true
-  } 
+} 
 ```
