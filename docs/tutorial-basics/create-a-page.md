@@ -17,8 +17,8 @@ The **Routes** that exist are :
 When you create an user you have to know the username et email are unique 
 ### req.send() : 
 ```json title="an exemple of request"
- { 
-	"password" : "dsdfg", 
+{ 
+    "password" : "dsdfg", 
 	"username" : "Louis", 
 	"email" : "chapristi@gmail.com"
 } 
@@ -158,7 +158,7 @@ When you want to destroy refresh token and token to logout the current user:
 ### req.response() :
 
 ```json title="an exemple of what the server return"
-  {
+{
      "revoked" : true
-  } 
+} 
 ```
